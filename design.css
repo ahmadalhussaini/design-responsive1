@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(207, 116, 56);
+  display: flex;
+}
+.div1 {
+  width: 900px;
+  height: 1050px;
+  background-color: rgb(231, 212, 212);
+  border: 1px solid black;
+
+  margin: 10px 10px 0 60px;
+  border-radius: 3em 3em 0 0;
+  background-image: url(design.jpg);
+  background-repeat: no-repeat;
+}
+
+.div1 header {
+  display: flex;
+}
+.div1 a {
+  margin: 20px;
+  margin-left: 15px;
+  font-size: 25px;
+  color: whitesmoke;
+  font-weight: 800;
+  text-decoration: none;
+}
+.div1 .fa {
+  font-size: 48px;
+  color: rgb(245, 235, 235);
+  margin: 20px;
+  margin-top: 16px;
+}
+.div1 button {
+  height: 50px;
+  width: 100px;
+  border-radius: 20em;
+  margin: 10px;
+  margin-left: 15px;
+}
+.div1 section {
+  margin-top: 30px;
+  text-align: center;
+}
+.div1 section .p1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: whitesmoke;
+  line-height: 47px;
+}
+.div1 section .p2 {
+  margin-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+.div1 section button {
+  height: 50px;
+  width: 140px;
+  border-radius: 20em;
+  background-color: orangered;
+  color: whitesmoke;
+  font-size: 15px;
+}
+.div1 article {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+}
+.div1 article div {
+  height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  border-radius: 1em;
+  box-shadow: -1px -1px 5px black, 1px 1px 5px black;
+  margin-left: 20px;
+}
+.div1 article div .fa {
+  color: orangered;
+}
+.div1 article div span {
+  font-size: 20px;
+  font-weight: 800;
+}
+.div1 .div3 {
+  margin: 70px auto;
+  margin-bottom: 0;
+  height: 150px;
+  width: 300px;
+}
+.div1 .div3 .fa {
+  margin: 10px 125px;
+  color: orangered;
+}
+.div1 .div3 p {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 800;
+}
+.div1 article div img {
+  margin-top: 10px;
+  border-radius: 1em;
+}
+.div1 article div button {
+  color: orangered;
+  font-size: 15px;
+  margin-top: -28px;
+  height: 40px;
+  width: 120px;
+}
+.div1 article div p {
+  font-weight: 800;
+}
+@media (max-width: 530px) {
+  .div1 {
+    width: 95%;
+    height: 100%;
+    background-color: rgb(231, 212, 212);
+    margin: 10px auto;
+    border-radius: 3em 3em 0 0;
+    background-image: url(design.jpg);
+    background-repeat: no-repeat;
+  }
+  .div1 header {
+    display: inline-block;
+  }
+  header a {
+    display: none;
+  }
+  header button {
+    position: relative;
+    display: none;
+    bottom: 15px;
+  }
+  .div1 article {
+    display: block;
+  }
+  .div1 article div {
+    margin: 20px auto;
+  }
+}
